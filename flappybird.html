@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy bird</title>
+    
+    <link rel="icon" href="bird.png">
+</head>
+<body>
+    <img id="bg" src="bg.png" style="display: none;">
+    <img id="fg" src="fg.png" style="display: none;">
+    <img id="bird" src="bird.png" style="display: none;">
+    <img id="pipeNorth" src="pipeNorth.png" style="display: none;">
+    <img id="pipeSouth" src="pipeSouth.png" style="display: none;">
+
+    <audio controls id="fly" style="display: none;">
+        <source src="sounds_fly.mp3" >
+
+    </audio>
+    <audio controls id="scor" style="display: none;">
+        <source src="sounds_score.mp3" >
+    </audio>
+
+    <canvas id="canvas" width="288px" height="512px"></canvas>
+    <script src="flappybird.js"></script>
+</body>
+</html>
